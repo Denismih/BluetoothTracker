@@ -12,6 +12,7 @@
 		84BFA1492112FE79000F980E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BFA1472112FE79000F980E /* Main.storyboard */; };
 		84BFA14B2112FE7B000F980E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BFA14A2112FE7B000F980E /* Assets.xcassets */; };
 		84BFA14E2112FE7B000F980E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BFA14C2112FE7B000F980E /* LaunchScreen.storyboard */; };
+		84BFA15621130255000F980E /* BlueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BFA15521130255000F980E /* BlueTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		84BFA14A2112FE7B000F980E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BFA14D2112FE7B000F980E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BFA14F2112FE7B000F980E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BFA15521130255000F980E /* BlueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				84BFA1432112FE79000F980E /* AppDelegate.swift */,
 				84BFA1452112FE79000F980E /* ViewController.swift */,
+				84BFA15521130255000F980E /* BlueTableViewCell.swift */,
 				84BFA1472112FE79000F980E /* Main.storyboard */,
 				84BFA14A2112FE7B000F980E /* Assets.xcassets */,
 				84BFA14C2112FE7B000F980E /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BFA1462112FE79000F980E /* ViewController.swift in Sources */,
+				84BFA15621130255000F980E /* BlueTableViewCell.swift in Sources */,
 				84BFA1442112FE79000F980E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UX58MRWBW6;
 				INFOPLIST_FILE = BluetoothTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UX58MRWBW6;
 				INFOPLIST_FILE = BluetoothTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
